@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAKEHOUSE</title>
+    <link rel="stylesheet" href="bakehouse.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="bakehouse.html"><img src="final logo.jpg" width="150" height="150"></a>
+            <div class="nav-links" id="navlinks">
+              <i class="fa fa-times" onlclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="bakehouse.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="cakes.html">CAKES</a></li>
+                    <li><a href="quick foods.html">QUICK FOODS</a></li>
+                    <li><a href="chocolates.html">CHOCOLATES</a></li>
+                    <li><a href="reviews.html">REVIEWS</a></li>
+                    <li><a href="contact us.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>QUICK FOODS</h1>   
+    </section>
+
+    <!--------- QUICK FOODS --------->
+
+    <section class="quick">
+        <h1>QUICK FOODS</h1>
+            <p>When it comes to desserts, cake probably “takes the cake” for being the champion of sweetness and goodness.</p>
+
+            <div class="row">
+              <div class="quick-col">
+                <img src="pizza.jpg">
+                <h3>PIZZAS</h3>
+              <p>Crispy crust pizzas with extra cheese tastes like heaven. Furthermore the aroma is always tantalizes like anything. No matter how much I have eaten, I never fail to make myself feel hungry when I have my favorite pizzas in front of me. Flavors are felt exploding in my mouth when I take the 1 st bite of my pizza.</p>
+              </div>
+              <div class="quick-col">
+                <img src="burger.jpg">
+                <h3>BURGERS</h3>
+                <p>A hamburger, or simply burger, is a food consisting of fillings—usually a patty of ground meat, typically beef—placed inside a sliced bun or bread roll. Hamburgers are often served with cheese, lettuce, tomato, onion, pickles, bacon, or chilis; condiments such as ketchup, mustard, mayonnaise, relish, or a "special sauce", often a variation of Thousand Island dressing; and are frequently placed on sesame seed buns. A hamburger patty topped with cheese is called a cheeseburger.</p>
+              </div>
+              <div class="quick-col">
+                <img src="mocktail.jpg">
+                <h3>MOCKTAILS</h3>
+                <p>You have probably heard the term “mocktail” before. You have likely seen that word a lot on our site specifically. We talk about mocktails a lot! That is because they are a type of amazing, non-alcoholic drink that we can’t get enough of.
+
+                  But what exactly is a mocktail? Let us tell you a little more about mocktails, what goes into making them and why they are a type of drink that you need to try.</p>
+              </div>
+            </div>
+                <div class="quick-col">
+                    <style>
+                        *,
+            *::after,
+            *::before {
+              margin: 0;
+              padding: 0;
+              box-sizing: inherit; 
+            }
+            
+            html {
+              box-sizing: border-box;
+              font-size: 62.5%; 
+            }
+            
+            body {
+              font-family: "Nunito", sans-serif;
+              color: #333;
+              font-weight: 300;
+              line-height: 1.6; 
+            }
+            
+            .container {
+              width: 60%;
+              margin: 2rem auto; 
+            }
+            
+            .gallery {
+              display: grid;
+              grid-template-columns: repeat(8, 1fr);
+              grid-template-rows: repeat(8, 5vw);
+              grid-gap: 1.5rem; 
+            }
+            
+            .gallery__img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              display: block; 
+            }
+            
+            .gallery__item--1 {
+              grid-column-start: 1;
+              grid-column-end: 3;
+              grid-row-start: 1;
+              grid-row-end: 3;
+            
+              /** Alternative Syntax **/
+              /* grid-column: 1 / span 2; */
+              /* grid-row: 1 / span 2; */
+            }
+            
+            .gallery__item--2 {
+              grid-column-start: 3;
+              grid-column-end: 5;
+              grid-row-start: 1;
+              grid-row-end: 3;
+            
+              /** Alternative Syntax **/
+              /* grid-column: 3 / span 2; */
+              /* grid-row: 1 / span 2; */
+            }
+            
+            .gallery__item--3 {
+              grid-column-start: 5;
+              grid-column-end: 9;
+              grid-row-start: 1;
+              grid-row-end: 6;
+            
+              /** Alternative Syntax **/
+              /* grid-column: 5 / span 4;
+              grid-row: 1 / span 5; */
+            }
+            
+            .gallery__item--4 {
+              grid-column-start: 1;
+              grid-column-end: 5;
+              grid-row-start: 3;
+              grid-row-end: 6;
+            
+              /** Alternative Syntax **/
+              /* grid-column: 1 / span 4; */
+              /* grid-row: 3 / span 3; */
+            }
+            
+            .gallery__item--5 {
+              grid-column-start: 1;
+              grid-column-end: 5;
+              grid-row-start: 6;
+              grid-row-end: 9;
+            
+              /** Alternative Syntax **/
+              /* grid-column: 1 / span 4; */
+              /* grid-row: 6 / span 3; */
+            }
+            
+            .gallery__item--6 {
+              grid-column-start: 5;
+              grid-column-end: 9;
+              grid-row-start: 6;
+              grid-row-end: 9;
+            
+              /** Alternative Syntax **/
+              /* grid-column: 5 / span 4; */
+              /* grid-row: 6 / span 3; */
+            }
+                    </style>
+                    <div class="container">
+                    <div class="gallery">
+                        <figure class="gallery__item gallery__item--1">
+                          <img src="pizza1.jpg" class="gallery__img" alt="Image 1">
+                        </figure>
+                        <figure class="gallery__item gallery__item--2">
+                          <img src="pizza2.webp" class="gallery__img" alt="Image 2">
+                        </figure>
+                        <figure class="gallery__item gallery__item--3">
+                          <img src="pizza3.jfif" class="gallery__img" alt="Image 3">
+                        </figure>
+                        <figure class="gallery__item gallery__item--4">
+                          <img src="pizza4.jpg" class="gallery__img" alt="Image 4">
+                        </figure>
+                        <figure class="gallery__item gallery__item--5">
+                          <img src="pizza5.jpg" class="gallery__img" alt="Image 5">
+                        </figure>
+                        <figure class="gallery__item gallery__item--6">
+                          <img src="pizza6.jpg" class="gallery__img" alt="Image 6">
+                        </figure>
+                      </div>
+                    </div>
+                    <h1 align="center">CHESSY PIZZAS</h1>
+                    <p>pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually, in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot.One of the simplest and most traditional pizzas is the Margherita, which is topped with tomatoes or tomato sauce, mozzarella, and basil. Popular legend relates that it was named for Queen Margherita, wife of Umberto I, who was said to have liked its mild fresh flavour and to have also noted that its topping colours—green, white, and red—were those of the Italian flag.The Ligurian pizza resembles the pissaladière of Provence in France, adding anchovies to olives and onions. Pizza has also spread from Italy throughout much of the rest of the world, and, in regions outside of Italy, the toppings used vary with the ingredients available and the flavour profile preferred</p>
+                    </div>
+                </div>        
+            <div class="quick-col">
+
+                <style>
+                    *,
+        *::after,
+        *::before {
+          margin: 0;
+          padding: 0;
+          box-sizing: inherit; 
+        }
+        
+        html {
+          box-sizing: border-box;
+          font-size: 62.5%; 
+        }
+        
+        body {
+          font-family: "Nunito", sans-serif;
+          color: #333;
+          font-weight: 300;
+          line-height: 1.6; 
+        }
+        
+        .container {
+          width: 60%;
+          margin: 2rem auto; 
+        }
+        
+        .gallery {
+          display: grid;
+          grid-template-columns: repeat(8, 1fr);
+          grid-template-rows: repeat(8, 5vw);
+          grid-gap: 1.5rem; 
+        }
+        
+        .gallery__img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          display: block; 
+        }
+        
+        .gallery__item--1 {
+          grid-column-start: 1;
+          grid-column-end: 3;
+          grid-row-start: 1;
+          grid-row-end: 3;
+        
+          /** Alternative Syntax **/
+          /* grid-column: 1 / span 2; */
+          /* grid-row: 1 / span 2; */
+        }
+        
+        .gallery__item--2 {
+          grid-column-start: 3;
+          grid-column-end: 5;
+          grid-row-start: 1;
+          grid-row-end: 3;
+        
+          /** Alternative Syntax **/
+          /* grid-column: 3 / span 2; */
+          /* grid-row: 1 / span 2; */
+        }
+        
+        .gallery__item--3 {
+          grid-column-start: 5;
+          grid-column-end: 9;
+          grid-row-start: 1;
+          grid-row-end: 6;
+        
+          /** Alternative Syntax **/
+          /* grid-column: 5 / span 4;
+          grid-row: 1 / span 5; */
+        }
+        
+        .gallery__item--4 {
+          grid-column-start: 1;
+          grid-column-end: 5;
+          grid-row-start: 3;
+          grid-row-end: 6;
+        
+          /** Alternative Syntax **/
+          /* grid-column: 1 / span 4; */
+          /* grid-row: 3 / span 3; */
+        }
+        
+        .gallery__item--5 {
+          grid-column-start: 1;
+          grid-column-end: 5;
+          grid-row-start: 6;
+          grid-row-end: 9;
+        
+          /** Alternative Syntax **/
+          /* grid-column: 1 / span 4; */
+          /* grid-row: 6 / span 3; */
+        }
+        
+        .gallery__item--6 {
+          grid-column-start: 5;
+          grid-column-end: 9;
+          grid-row-start: 6;
+          grid-row-end: 9;
+        
+          /** Alternative Syntax **/
+          /* grid-column: 5 / span 4; */
+          /* grid-row: 6 / span 3; */
+        }
+                </style>
+                <div class="container">
+                <div class="gallery">
+                    <figure class="gallery__item gallery__item--1">
+                      <img src="burger1.jpg" class="gallery__img" alt="Image 1">
+                    </figure>
+                    <figure class="gallery__item gallery__item--2">
+                      <img src="burger2.jfif" class="gallery__img" alt="Image 2">
+                    </figure>
+                    <figure class="gallery__item gallery__item--3">
+                      <img src="burger3.jpg" class="gallery__img" alt="Image 3">
+                    </figure>
+                    <figure class="gallery__item gallery__item--4">
+                      <img src="burger4.webp" class="gallery__img" alt="Image 4">
+                    </figure>
+                    <figure class="gallery__item gallery__item--5">
+                      <img src="burger5.jpg" class="gallery__img" alt="Image 5">
+                    </figure>
+                    <figure class="gallery__item gallery__item--6">
+                      <img src="burger6.jpg" class="gallery__img" alt="Image 6">
+                    </figure>
+                  </div>
+                </div>
+            <h1 align="center">OVERLOADED BURGERS</h1>
+            <p>The term burger can also be applied to the meat patty on its own, especially in the United Kingdom, where the term patty is rarely used or can even refer to ground beef. Since the term hamburger usually implies beef, for clarity burger may be prefixed with the type of meat or meat substitute used, as in beef burger, turkey burger, bison burger, portobello burger, or veggie burger. In Ireland, Australia and New Zealand, a piece of chicken breast on a bun is known as a chicken burger, which would generally not be considered to be a burger in the United States; Americans would generally call it a chicken sandwich, but in Australian English and New Zealand English a sandwich requires sliced bread (not a bun), so it would not be considered a sandwich.[2][3]
+
+              Hamburgers are typically sold at fast-food restaurants, diners, and other restaurants. There are many international and regional variations of hamburger.</p>
+            </div>       
+            <div class="quick-col">
+            
+                <style>
+                    *,
+        *::after,
+        *::before {
+          margin: 0;
+          padding: 0;
+          box-sizing: inherit; 
+        }
+        
+        html {
+          box-sizing: border-box;
+          font-size: 62.5%; 
+        }
+        
+        body {
+          font-family: "Nunito", sans-serif;
+          color: #333;
+          font-weight: 300;
+          line-height: 1.6; 
+        }
+        
+        .container {
+          width: 60%;
+          margin: 2rem auto; 
+        }
+        
+        .gallery {
+          display: grid;
+          grid-template-columns: repeat(8, 1fr);
+          grid-template-rows: repeat(8, 5vw);
+          grid-gap: 1.5rem; 
+        }
+        
+        .gallery__img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          display: block; 
+        }
+        
+        .gallery__item--1 {
+          grid-column-start: 1;
+          grid-column-end: 3;
+          grid-row-start: 1;
+          grid-row-end: 3;
+        
+          /** Alternative Syntax **/
+          /* grid-column: 1 / span 2; */
+          /* grid-row: 1 / span 2; */
+        }
+        
+        .gallery__item--2 {
+          grid-column-start: 3;
+          grid-column-end: 5;
+          grid-row-start: 1;
+          grid-row-end: 3;
+        
+          /** Alternative Syntax **/
+          /* grid-column: 3 / span 2; */
+          /* grid-row: 1 / span 2; */
+        }
+        
+        .gallery__item--3 {
+          grid-column-start: 5;
+          grid-column-end: 9;
+          grid-row-start: 1;
+          grid-row-end: 6;
+        
+          /** Alternative Syntax **/
+          /* grid-column: 5 / span 4;
+          grid-row: 1 / span 5; */
+        }
+        
+        .gallery__item--4 {
+          grid-column-start: 1;
+          grid-column-end: 5;
+          grid-row-start: 3;
+          grid-row-end: 6;
+        
+          /** Alternative Syntax **/
+          /* grid-column: 1 / span 4; */
+          /* grid-row: 3 / span 3; */
+        }
+        
+        .gallery__item--5 {
+          grid-column-start: 1;
+          grid-column-end: 5;
+          grid-row-start: 6;
+          grid-row-end: 9;
+        
+          /** Alternative Syntax **/
+          /* grid-column: 1 / span 4; */
+          /* grid-row: 6 / span 3; */
+        }
+        
+        .gallery__item--6 {
+          grid-column-start: 5;
+          grid-column-end: 9;
+          grid-row-start: 6;
+          grid-row-end: 9;
+        
+          /** Alternative Syntax **/
+          /* grid-column: 5 / span 4; */
+          /* grid-row: 6 / span 3; */
+        }
+                </style>
+                <div class="container">
+                <div class="gallery">
+                    <figure class="gallery__item gallery__item--1">
+                      <img src="mock1.jpg" class="gallery__img" alt="Image 1">
+                    </figure>
+                    <figure class="gallery__item gallery__item--2">
+                      <img src="mock2.jpg" class="gallery__img" alt="Image 2">
+                    </figure>
+                    <figure class="gallery__item gallery__item--3">
+                      <img src="mock3.jpg" class="gallery__img" alt="Image 3">
+                    </figure>
+                    <figure class="gallery__item gallery__item--4">
+                      <img src="mock4.webp" class="gallery__img" alt="Image 4">
+                    </figure>
+                    <figure class="gallery__item gallery__item--5">
+                      <img src="mock5.webp" class="gallery__img" alt="Image 5">
+                    </figure>
+                    <figure class="gallery__item gallery__item--6">
+                      <img src="mock6.jpg" class="gallery__img" alt="Image 6">
+                    </figure>
+                  </div>
+                </div>
+            <h1 align="center">MOCKTAILS</h1>
+            <p>Fire up the blender and create a virgin Piña Colada! This made-from-scratch recipe uses just three ingredients: pineapple juice, cream of coconut, and ice. It's a fabulous tropical smoothie with a taste that outshines any nonalcoholic Piña Colada mix you can buy at the store.
+              Non-Alcoholic Mojito
+              Virgin Mojito
+              The Spruce / Rachel Riesgraf
+              Enjoy the refreshing taste of a mojito without the rum. The virgin mojito recipe is a quick and simple drink made with fresh lime juice and mint leaves. It's sweetened with honey syrup and topped with club soda and is a fantastic family-friendly drink for summer barbecues.
+              Virgin Mary
+              The Virgin Mary: Spice Up Brunch With a Great Tomato Drink
+              The Spruce / Madhumita Sathishkumar
+              Start your morning off right with a freshly prepared virgin mary. It has all the spice that makes the bloody mary great, but there's no vodka. Use fresh tomato juice if you like, or pick up a bottled version and have fun customizing the recipe to suit your taste. You can also keep a pitcher in the fridge for a quick drink.
+              Citrus Fizz
+              Citrus Fizz
+              The Spruce / Julia Hartbeck
+              Eggs add texture and flavor to drinks and are commonly used in fizz cocktails. They don't make many appearances in mocktails, so this citrus fizz is a delightful surprise. The base is a tempting mix of orange, lemon, and lime sweetened with grenadine. It's shaken, then strained over ice, and topped with sparkling water. The taste is fascinating, and it's a recipe you'll definitely want to experience
+              Sweet Sunrise
+              Sweet sunrise mocktail with an orange slice
+              The Spruce / Nyssa Tanner
+              The sweet sunrise is an excellent breakfast, brunch, or afternoon drink that skips the liquor of a very popular cocktail. Also called the virgin sunrise, it is nothing more than a tequila sunrise; hold the tequila. Grenadine adds a great contrast to fresh-squeezed orange juice and gives it the ideal amount of sweetness.
+    
+            </p>
+        </section>
+
+     <!------ FOOTER ------>
+
+     <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
+        <section class="footer">
+          <h1>ABOUT US</h1>
+          <p>‘The Sweet Sensations’  Bakery is an American-style pastry kitchen established in 2004 to bring the bona fide taste of American home heating to London. The organization opened its first branch on Portobello Road in Notting Hill in 2007 and has since propelled a further six branches crosswise over London and Surrey in South Kensington, Soho, Spitalfields, Islington, and Richmond.
+
+            It additionally has an establishment nearness in the Middle East with four branches effectively working effectively in Dubai and Saudi Arabia with further dispatches arranged.
+            
+            Tarek Malouf, the organization organizer, and Managing Director, built up The ‘The Sweet Sensations’ Bakery idea in light of what he saw as an absence of any spots in London to appreciate the essence of genuinely credible American-style preparation.
+            
+            His vision for the pastry shop and love of American preparation happened to be something that numerous inside London, from over the UK and all around, came to share. Today the pastry kitchen has turned into an exceedingly celebrated and famous brand.
+            
+            One of the key factors in The ‘The Sweet Sensations’ Bakery’s prosperity has been its ethos that cakes taste best when they’ve been naturally heated, utilizing the same fixings and methods as in-home preparation. Consequently, every single ‘The Sweet Sensations’ Bakery branch has its own kitchen and a group of occupant master pastry specialists and cake decorators.
+            
+            </p>
+              
+            <div class="icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              
+            </div>
+        </section>
